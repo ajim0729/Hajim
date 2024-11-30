@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Family</title>
+
+        <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color:#000203;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        header {
+            background: #000203;
+            color: white;
+            padding: 10px 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 20px;
+        }
+        header .logo {
+            font-weight: 600;
+            font-size: 1.2em;
+            display: flex;
+            align-items: center;
+        }
+        header .contact-info {
+            display: flex;
+            align-items: center;
+        }
+        header .contact-info span {
+            margin-right: 10px;
+            color: white;
+            text-decoration: none;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: white;
+            padding: 10px 0;
+        }
+        nav a {
+            color: #026afd;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: 600;
+        }
+        nav a:hover {
+            color: #08b0f7;
+        }
+        .hero {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 60vh;
+            background: url('images/frame.jpg') no-repeat center center/cover;
+            color: white;
+            text-align: center;
+            padding: 1em;
+        }
+        .hero h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+        }
+        .content {
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            flex-grow: 1;
+        }
+        .family-item {
+            background-color: white;
+            border: 2px solid #333;
+            border-radius: 10px;
+            padding: 20px;
+            width: 50%;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .family-item:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+        .family-item h2 {
+            margin-bottom: 15px;
+        }
+        .family-item p {
+            margin-bottom: 15px;
+        }
+        .family-item img {
+            width: 80%;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+        .family-item .video-container {
+            position: relative;
+            width: 100%;
+            padding-top: 56.25%; /* 16:9 aspect ratio (height: 9/16 * width) */
+        }
+        .family-item .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            width: 100%;
+            margin-top: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            My Family
+        </div>
+        <div class="contact-info">
+             <span>📞 011-15255878</span>
+       <span>✉️ hajimhazli@gmail.com</span>
+
+        </div>
+    </header>
+    <nav>
+        <a href="home.html">Home</a>
+        <a href="biodata.html">Biodata</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="education.html">Educational</a>
+        <a href="experience.html">Experience</a>
+        <a href="interest.html">Hobby</a>
+        <a href="Family.html">Family</a>
+        <a href="contact.html">Contact Me</a>
+    </nav>
+    <div class="hero">
+        <div>
+            <h1><i>"Life Jacket in The Stormy Sea of Life"</i></h1>
+            <p><i>生命の嵐の海でのライフジャケット</i></p>
+        </div>
+    </div>
+    <div class="content">
+        <div class="family-item">
+            <center><h2>My Family</h2>
+<p><i>家族</i></p>
+<img src="images/family2.jpg" alt="Shoulder Dislocation Image"> </center>
+            <p>I come from a family of four siblings, and I have the unique role of being the youngest. Growing up as the last child has been an enriching experience, filled with guidance from my older siblings and the joy of carving out my own path within a loving and supportive family. </p>
+
+            <ul>
+               <li><b>My Father</a></b></li>
+                <p>Hazli</P> 
+               <li><b>My Mother</a></b></li>
+                <p>Dalina</p>
+               <li><b>My Older Brother</a></b></li>
+                <p>Ahmad Hunain </p>
+               <li><b>My Older Sister</a></b></li>
+                <p>Wirdah</p>
+               <li><b>My Brother</a></b></li>
+                <p>Hazman</p>
+
+        </div>
+</div>
+            <footer>
+        <p>&copy; 2024 Hajim. All rights reserved.</p>
+    </footer>
+</body>
+</html>

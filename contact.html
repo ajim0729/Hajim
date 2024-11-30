@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #ff2373; 
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        header {
+            background: #222;
+            color: white;
+            padding: 10px 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 20px;
+        }
+        header .logo {
+            font-weight: 600;
+            font-size: 1.2em;
+            display: flex;
+            align-items: center;
+        }
+        header .contact-info {
+            display: flex;
+            align-items: center;
+        }
+        header .contact-info span {
+            margin-right: 10px;
+            color: white;
+            text-decoration: none;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #ff2373;
+            padding: 10px 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: 600;
+        }
+        nav a:hover {
+            color: #ba0032;
+        }
+        .hero {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 60vh;
+            background: url('images/sarada.jpg') no-repeat center center/cover;
+            color: white;
+            text-align: center;
+            padding: 1em;
+        }
+        .hero h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+        }
+        .content {
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            flex-grow: 1;
+        }
+        .contact-method {
+            background-color: white;
+            border: 2px solid #333;
+            border-radius: 10px;
+            padding: 20px;
+            width: 50%;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .contact-method:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+        .contact-method img {
+            width: 50px;
+            height: 50px;
+            border-radius: 8px; /* Updated border radius */
+        }
+        .contact-method .text {
+            margin-left: 20px;
+        }
+        footer {
+            background: #222;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            width: 100%;
+            margin-top: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            Contact Me
+        </div>
+        <div class="contact-info">
+            <span>📞 011-15255878</span>
+       <span>✉️ hajimhazli@gmail.com</span>
+
+        </div>
+    </header>
+    <nav>
+        <a href="home.html">Home</a>
+        <a href="biodata.html">Biodata</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="education.html">Educational</a>
+        <a href="experience.html">Experience</a>
+        <a href="interest.html">Hobby</a>
+        <a href="Family.html">Family</a>
+        <a href="contact.html">Contact Me</a>
+    </nav>
+    <div class="hero">
+        <div>
+            <h1>Get In Touch With Me!</h1>
+            <p><b>Feel free to Follow My Social!</b></p>
+<p><i>お気軽にをフォローしてください!</i></p>
+
+        </div>
+    </div>
+    <div class="content">
+        <div class="contact-method">
+            <a href="https://wa.me/601115255878" target="_blank">
+                <img src="images/ws.jpg" alt="WhatsApp Icon">
+                <div class="text">
+                    <h2>WhatsApp</h2>
+                    <p>Contact me directly on WhatsApp</p>
+                </div>
+            </a>
+        </div>
+        <div class="contact-method">
+            <a href="https://www.instagram.com/ajim.ss/" target="_blank">
+                <img src="images/ig.jpg" alt="Instagram Icon">
+                <div class="text">
+                    <h2>Instagram</h2>
+                    <p>Follow me on Instagram</p>
+                </div>
+            </a>
+        </div>
+        <div class="contact-method">
+            <a href="mailto:hajimhazli@gmail.com">
+                <img src="gmail.jpg" alt="Gmail Icon">
+                <div class="text">
+                    <h2>Email</h2>
+                    <p>Email me at hajimhazli@gmail.com</p>
+                </div>
+            </a>
+        </div>
+        
+               
+            </a>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Hajim. All rights reserved.</p>
+    </footer>
+</body>
+</html>
